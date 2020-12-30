@@ -1,0 +1,15 @@
+server:
+  name: "elk"
+  host: "0.0.0.0"
+  port: 5601
+  basePath: /kibana
+  rewriteBasePath: true
+
+# When enabling encryption between Kibana and Elasticsearch, change "http" to "https" below:
+elasticsearch.hosts: ["http://elasticsearch01:9200"]
+xpack.monitoring.ui.container.elasticsearch.enabled: true
+
+elasticsearch.username: elastic
+elasticsearch.password: password123
+
+csp.strict: false

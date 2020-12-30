@@ -1,0 +1,6 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+
+# License
+xpack.license.self_generated.type: basic
+xpack.monitoring.collection.enabled: true
